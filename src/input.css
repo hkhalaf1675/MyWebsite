@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+    /* .conatiner {
+        @apply px-2 mx-auto
+    } */
+    .element-center{
+        @apply flex justify-center items-center;
+    }
+    .btn{
+        @apply bg-blue-400 text-white hover:bg-blue-500 transition-all duration-200;
+    }
+}
+body{
+    font-family: 'Borel', cursive;
+    background-color: #181e2a;
+    /* animation: moveRight 1s ease-in-out infinite ; */
+}
